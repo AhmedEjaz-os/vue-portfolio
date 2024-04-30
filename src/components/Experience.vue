@@ -59,15 +59,15 @@ let skillStyles = [
 </script>
 
 <template>
-    <div class="container experience-section col-12">
+    <div class="container experience-section col-12" id="experience">
         <p class="text-center mb-0 pb-0 experience-section-title">Explore My</p>
         <h1 class="text-center experience-section-description">Experience</h1>
-        <div class="d-flex experience-section-card-parent">
-            <div class="experience-section-card py-3 px-5 col-6 me-3">
+        <div class="d-flex flex-column flex-lg-row experience-section-card-parent">
+            <div class="experience-section-card py-3 px-5 me-lg-3">
                 <p class="experience-section-card-title text-center">Frontend Development</p>
-                <div class="d-flex flex-wrap">
+                <div class="d-flex flex-wrap col-12">
                     <div v-for="(item) in skillFront"
-                        class="experience-section-card-skill col-6 d-flex align-items-start mb-4">
+                        class="experience-section-card-skill d-flex align-items-start mb-4 col-6">
                         <img src="/src/assets/img/icons/checkmark.png" alt="skill-logo" />
                         <div class="d-flex flex-column ms-4">
                             <p class="experience-section-card-skill-title mb-0">{{ item.skill }}</p>
@@ -76,11 +76,11 @@ let skillStyles = [
                     </div>
                 </div>
             </div>
-            <div class="experience-section-card py-3 px-5 col-6 ms-3">
+            <div class="experience-section-card py-3 px-5 ms-lg-3 mt-3 mt-lg-0">
                 <p class="experience-section-card-title text-center">Frontend Development</p>
-                <div class="d-flex flex-wrap">
+                <div class="d-flex flex-wrap col-12">
                     <div v-for="(item) in skillStyles"
-                        class="experience-section-card-skill col-6 d-flex align-items-start mb-4">
+                        class="experience-section-card-skill d-flex align-items-start mb-4 col-6">
                         <img src="/src/assets/img/icons/checkmark.png" alt="skill-logo" />
                         <div class="d-flex flex-column ms-4">
                             <p class="experience-section-card-skill-title mb-0">{{ item.skill }}</p>
@@ -96,6 +96,7 @@ let skillStyles = [
 <style lang="scss" scoped>
 .experience-section {
     margin-top: 17vh;
+    padding: 0px;
 
     &-title {
         font-size: 16px;
@@ -111,6 +112,7 @@ let skillStyles = [
     &-card {
         border: rgb(53, 53, 53) 0.1rem solid;
         border-radius: 30px;
+        max-width: 100%;
 
         &-title {
             color: rgb(85, 85, 85);
@@ -142,5 +144,13 @@ let skillStyles = [
         }
     }
 
+}
+
+@media (min-width: 992px) {
+    .experience-section {
+        &-card {
+            max-width: 49%;
+        }
+    }
 }
 </style>
