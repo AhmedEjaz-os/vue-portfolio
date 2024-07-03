@@ -68,7 +68,7 @@ let skillStyles = [
                 <div class="d-flex flex-wrap col-12">
                     <div v-for="(item) in skillFront"
                         class="experience-section-card-skill d-flex align-items-start mb-4 col-6">
-                        <img src="/public/img/icons/checkmark.png" alt="skill-logo" />
+                        <img src="/img/icons/checkmark.png" alt="skill-logo" />
                         <div class="d-flex flex-column ms-4">
                             <p class="experience-section-card-skill-title mb-0">{{ item.skill }}</p>
                             <p class="experience-section-card-skill-des mb-0">{{ item.level }}</p>
@@ -81,7 +81,7 @@ let skillStyles = [
                 <div class="d-flex flex-wrap col-12">
                     <div v-for="(item) in skillStyles"
                         class="experience-section-card-skill d-flex align-items-start mb-4 col-6">
-                        <img src="/public/img/icons/checkmark.png" alt="skill-logo" />
+                        <img src="/img/icons/checkmark.png" alt="skill-logo" />
                         <div class="d-flex flex-column ms-4">
                             <p class="experience-section-card-skill-title mb-0">{{ item.skill }}</p>
                             <p class="experience-section-card-skill-des mb-0">{{ item.level }}</p>

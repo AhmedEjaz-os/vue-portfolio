@@ -39,7 +39,7 @@ let projects = [
         <h1 class="text-center projects-section-description">Projects</h1>
         <div class="d-flex flex-wrap project-card-parent gap-2">
             <div v-for="(item) in projects" class="project-card d-flex flex-column justify-content-center p-4">
-                <img class="project-card-img mx-auto" :src="`/public/img/projects/${item.imgSrc}`" alt="project-img">
+                <img class="project-card-img mx-auto" :src="`/img/projects/${item.imgSrc}`" alt="project-img">
                 <h3 class="project-card-title mx-auto text-center mt-5 mb-4">{{ item.title }}</h3>
                 <div class="project-card-button-container d-flex flex-row justify-content-center">
                     <a :href="item.githubLink" v-if="item.githubLink"
