@@ -1,31 +1,31 @@
 <script setup>
 let projects = [
     {
-        imgSrc: '/public/img/projects/project1.jpg',
+        imgSrc: 'project1.jpg',
         title: 'Parslabs',
         githubLink: 'https://github.com/MuhammadZainEjaz/ElenaPortfolio',
         liveDemoLink: ''
     },
     {
-        imgSrc: '/public/img/projects/project2.png',
+        imgSrc: 'project2.png',
         title: 'Qualified Teachers',
         githubLink: 'https://github.com/Caphas/QUALIFIED-TEACHERS',
         liveDemoLink: 'https://dev.kesso.uk/'
     },
     {
-        imgSrc: '/public/img/projects/project3.png',
+        imgSrc: 'project3.png',
         title: 'Angular Version Update',
         githubLink: 'https://github.com/AhmedEjaz-os/mathfe',
         liveDemoLink: 'https://allgifted.com/'
     },
     {
-        imgSrc: '/public/img/projects/project4.jpg',
+        imgSrc: 'project4.jpg',
         title: 'Landing Page',
         githubLink: 'https://github.com/AhmedEjaz-os/upwork-angular-mockup-landing-page',
         liveDemoLink: ''
     },
     {
-        imgSrc: '/public/img/projects/project5.png',
+        imgSrc: 'project5.png',
         title: 'Angular Developer at Techtonex',
         githubLink: '',
         liveDemoLink: 'https://techtonex.com/our-work/'
@@ -39,7 +39,7 @@ let projects = [
         <h1 class="text-center projects-section-description">Projects</h1>
         <div class="d-flex flex-wrap project-card-parent gap-2">
             <div v-for="(item) in projects" class="project-card d-flex flex-column justify-content-center p-4">
-                <img class="project-card-img mx-auto" :src="item.imgSrc" alt="project-img">
+                <img class="project-card-img mx-auto" :src="`/public/img/projects/${item.imgSrc}`" alt="project-img">
                 <h3 class="project-card-title mx-auto text-center mt-5 mb-4">{{ item.title }}</h3>
                 <div class="project-card-button-container d-flex flex-row justify-content-center">
                     <a :href="item.githubLink" v-if="item.githubLink"
