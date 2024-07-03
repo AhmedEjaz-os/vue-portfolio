@@ -7,19 +7,19 @@
         <div class="d-flex flex-column flex-lg-row left-right-parent">
             <div class="left">
                 <div class="about-me-picture d-flex justify-content-center">
-                    <img src="/src/assets/img/section2.jpg" alt="about-me-logo">
+                    <img src="/public/img/section2.jpg" alt="about-me-logo">
                 </div>
             </div>
             <div class="right d-flex flex-column align-items-center d-lg-block">
                 <div class="d-flex">
                     <div class="experience-card py-3 px-5">
-                        <img class="mb-2" src="/src/assets/img/icons/experience.png" alt="experience-ico">
+                        <img class="mb-2" src="/public/img/icons/experience.png" alt="experience-ico">
                         <p class="experience-card-title mb-0">Experience</p>
                         <p class="mb-0">4+ years</p>
                         <p class="mb-0">Frontend Developer</p>
                     </div>
                     <div class="experience-card experience-card-margin py-3 px-5">
-                        <img class="mb-2" src="/src/assets/img/icons/education.png" alt="education-ico">
+                        <img class="mb-2" src="/public/img/icons/education.png" alt="education-ico">
                         <p class="experience-card-title mb-0">Education</p>
                         <p class="mb-0">B.Sc. Bachelors Degree</p>
                         <p class="text-white mb-0">B.Sc. Bachelors Degree</p>

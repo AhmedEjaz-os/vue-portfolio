@@ -1,31 +1,31 @@
 <script setup>
 let projects = [
     {
-        imgSrc: '/src/assets/img/projects/project1.jpg',
+        imgSrc: '/public/img/projects/project1.jpg',
         title: 'Parslabs',
         githubLink: 'https://github.com/MuhammadZainEjaz/ElenaPortfolio',
         liveDemoLink: ''
     },
     {
-        imgSrc: '/src/assets/img/projects/project2.png',
+        imgSrc: '/public/img/projects/project2.png',
         title: 'Qualified Teachers',
         githubLink: 'https://github.com/Caphas/QUALIFIED-TEACHERS',
         liveDemoLink: 'https://dev.kesso.uk/'
     },
     {
-        imgSrc: '/src/assets/img/projects/project3.png',
+        imgSrc: '/public/img/projects/project3.png',
         title: 'Angular Version Update',
         githubLink: 'https://github.com/AhmedEjaz-os/mathfe',
         liveDemoLink: 'https://allgifted.com/'
     },
     {
-        imgSrc: '/src/assets/img/projects/project4.jpg',
+        imgSrc: '/public/img/projects/project4.jpg',
         title: 'Landing Page',
         githubLink: 'https://github.com/AhmedEjaz-os/upwork-angular-mockup-landing-page',
         liveDemoLink: ''
     },
     {
-        imgSrc: '/src/assets/img/projects/project5.png',
+        imgSrc: '/public/img/projects/project5.png',
         title: 'Angular Developer at Techtonex',
         githubLink: '',
         liveDemoLink: 'https://techtonex.com/our-work/'

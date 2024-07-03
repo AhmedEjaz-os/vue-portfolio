@@ -6,7 +6,7 @@ import cv from '../assets/resume/cv.pdf';
     <div class="section1 container d-flex flex-column flex-lg-row">
         <div class="left col-12 col-lg-6">
             <div class="profile-picture d-flex justify-content-center align-items-center">
-                <img src="/src/assets/img/section1.jpg" alt="logo img">
+                <img src="/public/img/section1.jpg" alt="logo img">
             </div>
         </div>
         <div class="right col-12 col-lg-6">
